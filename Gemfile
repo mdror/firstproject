@@ -5,6 +5,7 @@ ruby '2.1.2'
 gem 'rails', '4.2.0.beta2'
 # Use postgresql as the database for Active Record
 gem 'pg'
+
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0.beta1'
@@ -24,7 +25,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-
+gem 'foundation-rails'
 
 
 # Use ActiveModel has_secure_password
